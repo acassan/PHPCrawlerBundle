@@ -1,0 +1,23 @@
+{
+    "name": "acassan/php-crawler",
+    "type": "symfony-bundle",
+    "description": "Symfony 2 PHPCrawler",
+    "keywords": ["phpcrawler"],
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "Alexis Cassan",
+            "email": "contact@alexiscassan.fr",
+            "homepage": "http://www.alexiscassan.fr"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/framework-bundle": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "PHPCrawler": "src"
+        }
+    }
+}
